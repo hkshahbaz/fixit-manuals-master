@@ -1,0 +1,178 @@
+html{scroll-behavior: smooth;}
+.main-section{
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;  
+  width: 100%;
+  background-size:100% 100% !important;
+  height: 100vh;
+}
+.footer-section{
+    background-image: url(../images/footer\ bg.png);
+    background-repeat: no-repeat;  
+    width: 100%;
+    background-size:100% 100% !important;
+  }
+  .form-section{
+    background-image: url(../images/map.png);
+    background-repeat: no-repeat;  
+    width: 100%;
+    background-size:100% 100% !important;
+  }
+.btn-download{
+    background-color: #2e3d97;
+    color: white;
+    padding: 3px 20px;
+    border: 2px solid #2e3d97;
+
+}
+.btn-download:hover{
+    background-color: transparent;
+    color: #2e3d97;
+    padding: 3px 20px;
+    border: 2px solid #2e3d97;
+
+}
+.btn-search{
+    background-color: #2e3d97;
+    color: white;
+    padding: 5px 20px;
+    border: 2px solid #2e3d97;
+
+}
+.btn-search:hover{
+    background-color: transparent;
+    color: #2e3d97;
+    padding: 5px 20px;
+    border: 2px solid #2e3d97;
+
+}
+.btn-modal{
+    background-color: #2e3d97;
+    color: white;
+    padding: 5px 30px;
+    font-size: 2rem;
+    border: 2px solid #2e3d97;
+}
+.btn-modal:hover{
+    background-color:  transparent;
+    color: #2e3d97;
+    padding: 5px 30px;
+    font-size: 2rem;
+    border: 2px solid #2e3d97;
+}
+.color-a{
+    color: #2e3d97;
+}
+.bg-main{
+    background-color: #2e3d97;
+}
+.bg-main2{
+    background-color: #000000;
+}
+.bg-brads{
+    background-color: #ebebeb;
+}
+.active{
+    background-color: #2e3d97;
+    color:white;
+    border-radius: 3px 3px 0px 0px;
+    
+}
+.point{
+    cursor: pointer;
+}
+.resp-position{ 
+    text-align: left;
+}
+   /* Selection Default Arrow */
+   select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;       /* Remove default arrow */
+    background-image: url('../images/arrow\ down.png'); 
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 50%;
+    padding: .5em;
+    padding-right: 1.5em;
+    font-size: 15px !important;
+ }
+ .copyright {
+    background-color: #111;
+    padding: 12px 0;
+    font-size:14px;
+  }
+  .inner {
+    width: 80px;
+    height: 1px;
+    padding-top: 0.2rem;
+    margin: 0px 1rem;
+    border-bottom: 2px solid #2e3d97;
+}
+.inner2 {
+    width: 80px;
+    height: 1px;
+    padding-top: 0.2rem;
+    margin: 0px auto;
+    border-bottom: 2px solid #2e3d97;
+}
+.padding-custom{
+    padding: 5rem !important;
+}
+.text-manual{
+    font-size: 0.9em;
+}
+.text-res-right{
+    text-align: right;
+}
+.text-res-left{
+    text-align: left;
+}
+ @media (max-width: 1024px){
+    .resp-position{ 
+        text-align: center;
+    }
+    }
+    @media (max-width: 780px){
+        
+        .main-section{
+            background-image: url(../images/bg.png);
+            background-repeat: no-repeat;
+            width: 100%;
+            background-position: center center !important;
+            background-size: cover !important;
+            height: 149vh;
+          }
+          .footer-section{
+            background-image: url(../images/footer\ bg.png);
+            background-repeat: no-repeat;
+            width: 100%;
+            background-position: center center !important;
+            background-size: cover !important;
+          }
+          .btn-search{
+            background-color: #2e3d97;
+            color: white;
+            padding: 5px 10px;
+            border: 2px solid #2e3d97;
+        
+        }
+        .btn-search:hover{
+            background-color: transparent;
+            color: #2e3d97;
+            padding: 5px 10px;
+            border: 2px solid #2e3d97;
+        
+        }
+        .padding-custom{
+            padding: 3rem !important;
+        }
+        .text-res-right{
+            text-align: center;
+        }
+        .text-res-left{
+            text-align: center;
+        }
+        }
+       
+ 

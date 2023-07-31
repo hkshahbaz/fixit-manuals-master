@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1044715656833",
+    "firebase_url": "https://mahsool-7fd35.firebaseio.com",
+    "project_id": "mahsool-7fd35",
+    "storage_bucket": "mahsool-7fd35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044715656833:android:a12f006964dc21c2e11f80",
+        "android_client_info": {
+          "package_name": "com.system.user.global.farmers.marke.globalfarmersmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044715656833-qlrs4hc2akjn3v4enrh47nse21fidlff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtTFhQYi8qOj5abuFBcJkWFTqCI0wk1R8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044715656833-qlrs4hc2akjn3v4enrh47nse21fidlff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
